@@ -74,7 +74,7 @@ social_image = "icons/github.svg"
 name = "Spike Xue"
 bio = "A pure coder, written Python and C++, believe in Zen of Python"
 # The URL of avatar.
-avatar_url = "icons/github.svg"
+avatar_url = "icons/autobots.svg"
 # Invert color in dark mode.
 avatar_invert = true
 
