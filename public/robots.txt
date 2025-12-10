@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://st1020.github.io/kita/sitemap.xml
+Sitemap: https://spynotes.netlify.app/sitemap.xml

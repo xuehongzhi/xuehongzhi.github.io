@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title>Kita</title>
-    <subtitle>Kita is a clean, elegant and simple blog theme for Zola.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://st1020.github.io/kita/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://st1020.github.io/kita"/>
+    <title>Notes</title>
+    <subtitle>Spike&#x27;s notes and blogs</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://spynotes.netlify.app/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://spynotes.netlify.app"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2023-10-20T00:00:00+00:00</updated>
-    <id>https://st1020.github.io/kita/atom.xml</id>
+    <id>https://spynotes.netlify.app/atom.xml</id>
     <entry xml:lang="en">
         <title>Placeholder Text 1</title>
         <published>2023-10-20T00:00:00+00:00</published>
@@ -15,13 +15,13 @@
         <author>
           <name>
             
-              st1020
+              Spike.X
             
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://st1020.github.io/kita/placeholder-1/"/>
-        <id>https://st1020.github.io/kita/placeholder-1/</id>
+        <link rel="alternate" type="text/html" href="https://spynotes.netlify.app/placeholder-1/"/>
+        <id>https://spynotes.netlify.app/placeholder-1/</id>
         
         <summary type="html">&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&amp;hellip;
 &lt;&#x2F;p&gt;
@@ -36,13 +36,13 @@
         <author>
           <name>
             
-              st1020
+              Spike.X
             
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://st1020.github.io/kita/placeholder-2/"/>
-        <id>https://st1020.github.io/kita/placeholder-2/</id>
+        <link rel="alternate" type="text/html" href="https://spynotes.netlify.app/placeholder-2/"/>
+        <id>https://spynotes.netlify.app/placeholder-2/</id>
         
         <summary type="html">&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&amp;hellip;
 &lt;&#x2F;p&gt;
@@ -57,13 +57,13 @@
         <author>
           <name>
             
-              st1020
+              Spike.X
             
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://st1020.github.io/kita/placeholder-3/"/>
-        <id>https://st1020.github.io/kita/placeholder-3/</id>
+        <link rel="alternate" type="text/html" href="https://spynotes.netlify.app/placeholder-3/"/>
+        <id>https://spynotes.netlify.app/placeholder-3/</id>
         
         <summary type="html">&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&amp;hellip;
 &lt;&#x2F;p&gt;
@@ -78,13 +78,13 @@
         <author>
           <name>
             
-              st1020
+              Spike.X
             
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://st1020.github.io/kita/placeholder-4/"/>
-        <id>https://st1020.github.io/kita/placeholder-4/</id>
+        <link rel="alternate" type="text/html" href="https://spynotes.netlify.app/placeholder-4/"/>
+        <id>https://spynotes.netlify.app/placeholder-4/</id>
         
         <summary type="html">&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&amp;hellip;
 &lt;&#x2F;p&gt;
@@ -99,13 +99,13 @@
         <author>
           <name>
             
-              st1020
+              Spike.X
             
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://st1020.github.io/kita/placeholder-5/"/>
-        <id>https://st1020.github.io/kita/placeholder-5/</id>
+        <link rel="alternate" type="text/html" href="https://spynotes.netlify.app/placeholder-5/"/>
+        <id>https://spynotes.netlify.app/placeholder-5/</id>
         
         <summary type="html">&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&amp;hellip;
 &lt;&#x2F;p&gt;
@@ -120,13 +120,13 @@
         <author>
           <name>
             
-              st1020
+              Spike.X
             
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://st1020.github.io/kita/markdown-syntax/"/>
-        <id>https://st1020.github.io/kita/markdown-syntax/</id>
+        <link rel="alternate" type="text/html" href="https://spynotes.netlify.app/markdown-syntax/"/>
+        <id>https://spynotes.netlify.app/markdown-syntax/</id>
         
         <summary type="html">&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Zola content files, also it shows whether basic HTML elements are decorated with CSS in a Kita theme.&lt;&#x2F;p&gt;</summary>
         
@@ -139,13 +139,13 @@
         <author>
           <name>
             
-              st1020
+              Spike.X
             
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://st1020.github.io/kita/math-typesetting/"/>
-        <id>https://st1020.github.io/kita/math-typesetting/</id>
+        <link rel="alternate" type="text/html" href="https://spynotes.netlify.app/math-typesetting/"/>
+        <id>https://spynotes.netlify.app/math-typesetting/</id>
         
         <summary type="html">&lt;p&gt;Kita theme support $\LaTeX$ mathematical formulas using &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;&quot;&gt;KaTeX&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;</summary>
         
@@ -158,15 +158,15 @@
         <author>
           <name>
             
-              st1020
+              Spike.X
             
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://st1020.github.io/kita/shortcodes/"/>
-        <id>https://st1020.github.io/kita/shortcodes/</id>
+        <link rel="alternate" type="text/html" href="https://spynotes.netlify.app/shortcodes/"/>
+        <id>https://spynotes.netlify.app/shortcodes/</id>
         
-        <content type="html" xml:base="https://st1020.github.io/kita/shortcodes/">&lt;p&gt;The Kita theme providers multiple shortcodes.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://spynotes.netlify.app/shortcodes/">&lt;p&gt;The Kita theme providers multiple shortcodes.&lt;&#x2F;p&gt;
 &lt;p&gt;Never heard of shortcodes? See &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;shortcodes&#x2F;&quot;&gt;Zola documentation&lt;&#x2F;a&gt; for more information.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;mermaid&quot;&gt;Mermaid&lt;&#x2F;h2&gt;
 &lt;p&gt;To use Mermaid in your page, you have to set &lt;code&gt;extra.mermaid = true&lt;&#x2F;code&gt; in the frontmatter of page.&lt;&#x2F;p&gt;
@@ -478,64 +478,64 @@ sequenceDiagram
   &lt;!----&gt;
   &lt;!----&gt;
   
-  &lt;a href=&quot;https:&#x2F;&#x2F;st1020.github.io&#x2F;kita&#x2F;shortcodes&#x2F;01-zola.png&quot; target=&quot;_blank&quot;&gt;
-    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;st1020.github.io&amp;#x2F;kita&amp;#x2F;processed_images&amp;#x2F;01-zola.b673627618ae4d9e.png&quot; &#x2F;&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;spynotes.netlify.app&#x2F;shortcodes&#x2F;01-zola.png&quot; target=&quot;_blank&quot;&gt;
+    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;spynotes.netlify.app&amp;#x2F;processed_images&amp;#x2F;01-zola.b673627618ae4d9e.png&quot; &#x2F;&gt;
   &lt;&#x2F;a&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   
-  &lt;a href=&quot;https:&#x2F;&#x2F;st1020.github.io&#x2F;kita&#x2F;shortcodes&#x2F;02-zola-manet.png&quot; target=&quot;_blank&quot;&gt;
-    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;st1020.github.io&amp;#x2F;kita&amp;#x2F;processed_images&amp;#x2F;02-zola-manet.6cacdaa0a00675f4.png&quot; &#x2F;&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;spynotes.netlify.app&#x2F;shortcodes&#x2F;02-zola-manet.png&quot; target=&quot;_blank&quot;&gt;
+    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;spynotes.netlify.app&amp;#x2F;processed_images&amp;#x2F;02-zola-manet.6cacdaa0a00675f4.png&quot; &#x2F;&gt;
   &lt;&#x2F;a&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   
-  &lt;a href=&quot;https:&#x2F;&#x2F;st1020.github.io&#x2F;kita&#x2F;shortcodes&#x2F;03-zola-cezanne.png&quot; target=&quot;_blank&quot;&gt;
-    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;st1020.github.io&amp;#x2F;kita&amp;#x2F;processed_images&amp;#x2F;03-zola-cezanne.7278afdd982f9c0d.png&quot; &#x2F;&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;spynotes.netlify.app&#x2F;shortcodes&#x2F;03-zola-cezanne.png&quot; target=&quot;_blank&quot;&gt;
+    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;spynotes.netlify.app&amp;#x2F;processed_images&amp;#x2F;03-zola-cezanne.7278afdd982f9c0d.png&quot; &#x2F;&gt;
   &lt;&#x2F;a&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   
-  &lt;a href=&quot;https:&#x2F;&#x2F;st1020.github.io&#x2F;kita&#x2F;shortcodes&#x2F;04-gutenberg.jpg&quot; target=&quot;_blank&quot;&gt;
-    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;st1020.github.io&amp;#x2F;kita&amp;#x2F;processed_images&amp;#x2F;04-gutenberg.870b88ab978bdf22.jpg&quot; &#x2F;&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;spynotes.netlify.app&#x2F;shortcodes&#x2F;04-gutenberg.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;spynotes.netlify.app&amp;#x2F;processed_images&amp;#x2F;04-gutenberg.870b88ab978bdf22.jpg&quot; &#x2F;&gt;
   &lt;&#x2F;a&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   
-  &lt;a href=&quot;https:&#x2F;&#x2F;st1020.github.io&#x2F;kita&#x2F;shortcodes&#x2F;05-example.jpg&quot; target=&quot;_blank&quot;&gt;
-    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;st1020.github.io&amp;#x2F;kita&amp;#x2F;processed_images&amp;#x2F;05-example.fa7cb105347c93cf.jpg&quot; &#x2F;&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;spynotes.netlify.app&#x2F;shortcodes&#x2F;05-example.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;spynotes.netlify.app&amp;#x2F;processed_images&amp;#x2F;05-example.fa7cb105347c93cf.jpg&quot; &#x2F;&gt;
   &lt;&#x2F;a&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   
-  &lt;a href=&quot;https:&#x2F;&#x2F;st1020.github.io&#x2F;kita&#x2F;shortcodes&#x2F;06-example.jpg&quot; target=&quot;_blank&quot;&gt;
-    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;st1020.github.io&amp;#x2F;kita&amp;#x2F;processed_images&amp;#x2F;06-example.eb57cde378878205.jpg&quot; &#x2F;&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;spynotes.netlify.app&#x2F;shortcodes&#x2F;06-example.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;spynotes.netlify.app&amp;#x2F;processed_images&amp;#x2F;06-example.eb57cde378878205.jpg&quot; &#x2F;&gt;
   &lt;&#x2F;a&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   
-  &lt;a href=&quot;https:&#x2F;&#x2F;st1020.github.io&#x2F;kita&#x2F;shortcodes&#x2F;07-example.jpg&quot; target=&quot;_blank&quot;&gt;
-    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;st1020.github.io&amp;#x2F;kita&amp;#x2F;processed_images&amp;#x2F;07-example.6ba4bc34b155528f.jpg&quot; &#x2F;&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;spynotes.netlify.app&#x2F;shortcodes&#x2F;07-example.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;spynotes.netlify.app&amp;#x2F;processed_images&amp;#x2F;07-example.6ba4bc34b155528f.jpg&quot; &#x2F;&gt;
   &lt;&#x2F;a&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   &lt;!----&gt;
   
-  &lt;a href=&quot;https:&#x2F;&#x2F;st1020.github.io&#x2F;kita&#x2F;shortcodes&#x2F;08-example.jpg&quot; target=&quot;_blank&quot;&gt;
-    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;st1020.github.io&amp;#x2F;kita&amp;#x2F;processed_images&amp;#x2F;08-example.13c3f7440797b6ed.jpg&quot; &#x2F;&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;spynotes.netlify.app&#x2F;shortcodes&#x2F;08-example.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img class=&quot;rounded-lg&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;spynotes.netlify.app&amp;#x2F;processed_images&amp;#x2F;08-example.13c3f7440797b6ed.jpg&quot; &#x2F;&gt;
   &lt;&#x2F;a&gt;
   &lt;!----&gt;
   
@@ -551,15 +551,15 @@ sequenceDiagram
         <author>
           <name>
             
-              st1020
+              Spike.X
             
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://st1020.github.io/kita/theme-config/"/>
-        <id>https://st1020.github.io/kita/theme-config/</id>
+        <link rel="alternate" type="text/html" href="https://spynotes.netlify.app/theme-config/"/>
+        <id>https://spynotes.netlify.app/theme-config/</id>
         
-        <content type="html" xml:base="https://st1020.github.io/kita/theme-config/">&lt;p&gt;You can customize Kita theme by editing &lt;code&gt;config.toml&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://spynotes.netlify.app/theme-config/">&lt;p&gt;You can customize Kita theme by editing &lt;code&gt;config.toml&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;Here are all the kita theme options:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# The Kita theme style config.
 &lt;&#x2F;span&gt;&lt;span&gt;[extra]
