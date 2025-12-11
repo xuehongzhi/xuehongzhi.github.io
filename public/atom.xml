@@ -5,8 +5,315 @@
     <link rel="self" type="application/atom+xml" href="https://spynotes.netlify.app/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://spynotes.netlify.app"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-10-20T00:00:00+00:00</updated>
+    <updated>2025-09-22T00:00:00+00:00</updated>
     <id>https://spynotes.netlify.app/atom.xml</id>
+    <entry xml:lang="en">
+        <title>麦氏方程 </title>
+        <published>2025-09-22T00:00:00+00:00</published>
+        <updated>2025-09-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Spike.X
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://spynotes.netlify.app/mai-shi-fang-cheng/"/>
+        <id>https://spynotes.netlify.app/mai-shi-fang-cheng/</id>
+        
+        <content type="html" xml:base="https://spynotes.netlify.app/mai-shi-fang-cheng/">&lt;p&gt;嗯，用户提到了&quot;麦氏方程&quot;，我需要确认这是指电磁学中的麦克斯韦方程组。用户可能是在学习物理或工程相关课程，或者对电磁理论感兴趣。考虑到这个术语的专业性，用户可能是学生、教师或科技爱好者。&lt;&#x2F;p&gt;
+&lt;p&gt;用户没有提供更多背景，但突然抛出这个术语，可能有几种需求：一是想了解基本概念，二是需要公式的具体形式，三是想理解其物理意义，四是探讨实际应用。最稳妥的方式是从基础开始系统介绍，同时覆盖数学表达和物理内涵。&lt;&#x2F;p&gt;
+&lt;p&gt;麦克斯韦方程组有积分和微分两种形式，用户可能更需要微分形式，因为更通用且便于计算。需要强调四个方程分别对应不同实验定律（高斯、法拉第等），并指出新增的位移电流是关键创新。&lt;&#x2F;p&gt;
+&lt;p&gt;用户可能对&quot;方程如何预言电磁波&quot;这一点感兴趣，这点必须展开说明。另外要提现代应用，比如通信技术，让理论联系实际。最后用一句话总结其地位——&quot;物理学美学巅峰&quot;这类表述能引发兴趣。&lt;&#x2F;p&gt;
+&lt;p&gt;要注意避免过于数学化，比如旋度散度的严格定义可以简化为&quot;电场磁场的空间变化率&quot;。如果用户后续追问数学细节，再深入讲解。现在首要是建立物理图像。&lt;&#x2F;p&gt;
+&lt;p&gt;对了，补充点历史背景会更有趣：麦克斯韦如何统一电与磁，赫兹后来实验证实电磁波，这样故事性更强。不过核心还是说清方程本身，历史作为点缀即可。&lt;&#x2F;p&gt;
+&lt;p&gt;麦克斯韦方程组（&lt;strong&gt;Maxwell&#x27;s Equations&lt;&#x2F;strong&gt;）是电磁学的&lt;strong&gt;核心基石&lt;&#x2F;strong&gt;，由英国物理学家詹姆斯·克拉克·麦克斯韦在19世纪中叶提出。它完美统一了电学与磁学，揭示了电场和磁场之间的内在联系及其变化规律，并预言了电磁波的存在（后来被赫兹实验证实），为现代无线通信、光学和整个经典电磁理论奠定了基础。&lt;&#x2F;p&gt;
+&lt;p&gt;麦克斯韦方程组通常以&lt;strong&gt;积分形式&lt;&#x2F;strong&gt;和&lt;strong&gt;微分形式&lt;&#x2F;strong&gt;两种等价形式表述。下面是最常见的&lt;strong&gt;微分形式&lt;&#x2F;strong&gt;（使用矢量微积分）：&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;mai-ke-si-wei-fang-cheng-zu-wei-fen-xing-shi&quot;&gt;&lt;strong&gt;麦克斯韦方程组（微分形式）&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;高斯定律（电场） - Gauss&#x27;s Law for Electricity:&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;code&gt;$\nabla \cdot \vec{E} = \frac{\rho}{\epsilon_0}$&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;物理意义：&lt;&#x2F;strong&gt; 电荷是电场的源。电场线始于正电荷，终止于负电荷。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;$\nabla \cdot \vec{E}$&lt;&#x2F;code&gt;： 电场 &lt;code&gt;$\vec{E}$&lt;&#x2F;code&gt; 的散度（表示电场在空间某点的“发散程度”）。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;$\rho$&lt;&#x2F;code&gt;： 自由电荷体密度。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;$\epsilon_0$&lt;&#x2F;code&gt;： 真空介电常数。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;高斯定律（磁场） - Gauss&#x27;s Law for Magnetism:&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;code&gt;$\nabla \cdot \vec{B} = 0$&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;物理意义：&lt;&#x2F;strong&gt; 磁单极子不存在。磁场没有源或汇，磁感线是闭合的（无头无尾）。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;$\nabla \cdot \vec{B}$&lt;&#x2F;code&gt;： 磁场 &lt;code&gt;$\vec{B}$&lt;&#x2F;code&gt; 的散度。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;法拉第电磁感应定律 - Faraday&#x27;s Law of Induction:&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;code&gt;$\nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}$&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;物理意义：&lt;&#x2F;strong&gt; 变化的磁场会产生电场（涡旋电场）。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;$\nabla \times \vec{E}$&lt;&#x2F;code&gt;： 电场 &lt;code&gt;$\vec{E}$&lt;&#x2F;code&gt; 的旋度（表示电场在空间某点的“旋转程度”）。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;$-\frac{\partial \vec{B}}{\partial t}$&lt;&#x2F;code&gt;： 磁场 &lt;code&gt;$\vec{B}$&lt;&#x2F;code&gt; 随时间变化率的负值。负号表示感应电场的方向会阻碍磁场的变化（楞次定律）。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;安培-麦克斯韦定律 - Ampère-Maxwell Law:&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;code&gt;$\nabla \times \vec{B} = \mu_0 \vec{J} + \mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}$&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;物理意义：&lt;&#x2F;strong&gt; 电流和变化的电场都能产生磁场。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;$\nabla \times \vec{B}$&lt;&#x2F;code&gt;： 磁场 &lt;code&gt;$\vec{B}$&lt;&#x2F;code&gt; 的旋度。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;$\mu_0$&lt;&#x2F;code&gt;： 真空磁导率。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;$\vec{J}$&lt;&#x2F;code&gt;： 自由电流密度（由电荷运动产生）。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;$\mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}$&lt;&#x2F;code&gt;： &lt;strong&gt;位移电流密度&lt;&#x2F;strong&gt;（麦克斯韦的关键创新！）。这是麦克斯韦添加的一项，表示变化的电场也能像电流一样产生磁场。正是这一项使得方程组完整并预言了电磁波。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;guan-jian-yi-yi-he-gong-xian&quot;&gt;&lt;strong&gt;关键意义和贡献&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;统一电磁理论：&lt;&#x2F;strong&gt; 将静电学（库仑定律）、静磁学（安培定律）、电磁感应（法拉第定律）统一在一个自洽的理论框架内。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;预言电磁波：&lt;&#x2F;strong&gt; 从方程组可以直接推导出电磁波方程。方程组表明变化的电场产生变化的磁场，变化的磁场又产生变化的电场，这种相互激发可以在空间中脱离电荷和电流源独立传播，形成&lt;strong&gt;电磁波&lt;&#x2F;strong&gt;。麦克斯韦还计算出电磁波在真空中的传播速度 &lt;code&gt;$c = \frac{1}{\sqrt{\mu_0 \epsilon_0}}$&lt;&#x2F;code&gt;，与当时已知的光速非常接近，从而大胆预言&lt;strong&gt;光就是一种电磁波&lt;&#x2F;strong&gt;。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;奠定现代技术基础：&lt;&#x2F;strong&gt; 无线电、电视、雷达、手机、卫星通信、微波炉、光纤通信、X光、所有现代电子技术，其理论基础都源于麦克斯韦方程组。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;引入“位移电流”：&lt;&#x2F;strong&gt; 这是麦克斯韦最天才的贡献。他发现仅靠原有的安培定律（&lt;code&gt;$\nabla \times \vec{B} = \mu_0 \vec{J}$&lt;&#x2F;code&gt;）在电荷密度变化（如电容器充放电）的情况下会违反电荷守恒定律。添加位移电流项 &lt;code&gt;$\mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}$&lt;&#x2F;code&gt; 后，不仅解决了矛盾，更重要的是揭示了变化的电场产生磁场的本质，使方程组具备完美的对称性（除了磁单极子缺失），并预言电磁波。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;相对论的先驱：&lt;&#x2F;strong&gt; 麦克斯韦方程组的洛伦兹协变性（即在洛伦兹变换下形式不变）是爱因斯坦创立狭义相对论的重要启示之一。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;zong-jie&quot;&gt;&lt;strong&gt;总结&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;麦克斯韦方程组是人类科学史上最伟大、最深刻、最美丽的成就之一。它用四个简洁而对称的方程，精妙地刻画了电场和磁场如何相互激发、如何与电荷电流相互作用、如何在空间中传播。它不仅完美解释了当时已知的所有电磁现象，还做出了划时代的预言（电磁波即光），彻底改变了人类对世界的理解，并催生了几乎所有的现代电子和通信技术。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;可以说，没有麦克斯韦方程组，就没有我们的现代信息社会。&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;newton first law&lt;&#x2F;p&gt;
+&lt;p&gt;Thought for 16 seconds&lt;&#x2F;p&gt;
+&lt;p&gt;Okay, the user just asked about Newton&#x27;s First Law after previously discussing Maxwell&#x27;s Equations. Interesting shift from electromagnetism to classical mechanics.&lt;&#x2F;p&gt;
+&lt;p&gt;Hmm, judging by the concise query &quot;newton first law&quot;, they likely want a straightforward explanation similar to the detailed response I gave for Maxwell&#x27;s Equations. The user seems comfortable with scientific concepts - maybe a physics student or enthusiast.&lt;&#x2F;p&gt;
+&lt;p&gt;I recall their last question was technical but not overly advanced, so I&#x27;ll keep this accessible while including the essential mathematical context. Should emphasize how this law differs from everyday intuition since that&#x27;s where people get tripped up.&lt;&#x2F;p&gt;
+&lt;p&gt;Noting they didn&#x27;t specify depth level, I&#x27;ll structure it parallel to the Maxwell response: core statement, key implications, historical context, and modern relevance. The mention of Aristotle-Galileo contrast is crucial - shows why this wasn&#x27;t obvious.&lt;&#x2F;p&gt;
+&lt;p&gt;Must clarify inertial frames upfront since that&#x27;s the most common point of confusion. The shopping cart example came to mind as universally relatable. Also considering adding a &quot;why it matters&quot; section like with Maxwell to show real-world significance beyond textbook definitions.&lt;&#x2F;p&gt;
+&lt;p&gt;Wait - should check if they want applications. But given the query&#x27;s brevity, better to keep it foundational. Can expand if they follow up. The vector notation is worth including since they handled Maxwell&#x27;s differential forms.&lt;&#x2F;p&gt;
+&lt;p&gt;...Time to balance simplicity with depth. No jargon without explanation. Highlighting F_net=0 as the key condition. And absolutely must stress that this defines force conceptually - that&#x27;s the law&#x27;s deepest purpose.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Newton&#x27;s First Law of Motion&lt;&#x2F;strong&gt; (also called the &lt;strong&gt;Law of Inertia&lt;&#x2F;strong&gt;) is the foundation of classical mechanics. Here&#x27;s a clear breakdown of its meaning, implications, and significance:&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;core-statement&quot;&gt;&lt;strong&gt;Core Statement:&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&quot;An object at rest stays at rest, and an object in motion stays in motion &lt;strong&gt;with the same speed and in the same direction&lt;&#x2F;strong&gt; unless acted upon by an &lt;strong&gt;unbalanced external force&lt;&#x2F;strong&gt;.&quot;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;key-concepts&quot;&gt;&lt;strong&gt;Key Concepts:&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Inertia&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Inertia is an object&#x27;s inherent resistance to changes in its state of motion.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mass&lt;&#x2F;strong&gt; is the quantitative measure of inertia (greater mass = greater inertia).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Equilibrium Condition&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If the &lt;strong&gt;net external force&lt;&#x2F;strong&gt; (F⃗net\vec{F}_{\text{net}}&lt;&#x2F;p&gt;
+&lt;p&gt;F&lt;&#x2F;p&gt;
+&lt;p&gt;net​&lt;&#x2F;p&gt;
+&lt;p&gt;) on an object is &lt;strong&gt;zero&lt;&#x2F;strong&gt; (F⃗net=0\vec{F}_{\text{net}} = 0&lt;&#x2F;p&gt;
+&lt;p&gt;F&lt;&#x2F;p&gt;
+&lt;p&gt;net​&lt;&#x2F;p&gt;
+&lt;p&gt;=&lt;&#x2F;p&gt;
+&lt;p&gt;0):&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;An object at rest remains at rest.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;A moving object continues moving at &lt;strong&gt;constant velocity&lt;&#x2F;strong&gt; (unchanging speed + direction).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Force as the Cause of Change&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Velocity changes (acceleration) &lt;strong&gt;only occur&lt;&#x2F;strong&gt; when a net force acts on an object.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Force is not needed to &lt;em&gt;maintain&lt;&#x2F;em&gt; motion—only to &lt;em&gt;change&lt;&#x2F;em&gt; it.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;why-this-is-non-intuitive&quot;&gt;&lt;strong&gt;Why This Is Non-Intuitive:&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Everyday experience misleads us&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A rolling ball stops because of friction (an unbalanced force!).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;In space (where forces are minimal), objects move indefinitely (e.g., satellites).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Aristotle vs. Galileo&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Aristotle wrongly believed &quot;force is needed to sustain motion.&quot;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Galileo (through thought experiments) conceived inertia, later formalized by Newton.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;mathematical-form&quot;&gt;&lt;strong&gt;Mathematical Form:&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If F⃗net=0\vec{F}_{\text{net}} = 0&lt;&#x2F;p&gt;
+&lt;p&gt;F&lt;&#x2F;p&gt;
+&lt;p&gt;net​&lt;&#x2F;p&gt;
+&lt;p&gt;=&lt;&#x2F;p&gt;
+&lt;p&gt;0, then:&lt;&#x2F;p&gt;
+&lt;p&gt;dv⃗dt=0&lt;&#x2F;p&gt;
+&lt;p&gt;(acceleration is zero)\frac{d\vec{v}}{dt} = 0 \quad \text{(acceleration is zero)}&lt;&#x2F;p&gt;
+&lt;p&gt;dt&lt;&#x2F;p&gt;
+&lt;p&gt;d&lt;&#x2F;p&gt;
+&lt;p&gt;v&lt;&#x2F;p&gt;
+&lt;p&gt;​&lt;&#x2F;p&gt;
+&lt;p&gt;=&lt;&#x2F;p&gt;
+&lt;p&gt;0&lt;&#x2F;p&gt;
+&lt;p&gt;(acceleration is zero)v⃗=constant&lt;&#x2F;p&gt;
+&lt;p&gt;(including v⃗=0)\vec{v} = \text{constant} \quad \text{(including } \vec{v} = 0\text{)}&lt;&#x2F;p&gt;
+&lt;p&gt;v&lt;&#x2F;p&gt;
+&lt;p&gt;=&lt;&#x2F;p&gt;
+&lt;p&gt;constant&lt;&#x2F;p&gt;
+&lt;p&gt;(including &lt;&#x2F;p&gt;
+&lt;p&gt;v&lt;&#x2F;p&gt;
+&lt;p&gt;=&lt;&#x2F;p&gt;
+&lt;ol start=&quot;0&quot;&gt;
+&lt;li&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;key-implications&quot;&gt;&lt;strong&gt;Key Implications:&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Defines an Inertial Reference Frame&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The law itself &lt;strong&gt;only holds in inertial frames&lt;&#x2F;strong&gt; (non-accelerating coordinate systems).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;In accelerating frames (e.g., a turning car), objects appear to accelerate &quot;spontaneously&quot; (fictitious forces).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Distinguishes Forces from Motion&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Velocity is a &lt;em&gt;consequence&lt;&#x2F;em&gt; of forces in the past; force determines &lt;em&gt;future&lt;&#x2F;em&gt; changes.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Introduces Vector Nature of Motion&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&quot;Constant velocity&quot; means constant &lt;strong&gt;speed and direction&lt;&#x2F;strong&gt;. A turning object (even at constant speed) requires force.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;examples&quot;&gt;&lt;strong&gt;Examples:&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Scenario&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;strong&gt;Why the First Law Applies&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;A book on a table&lt;&#x2F;td&gt;&lt;td&gt;Fnet=0F_{\text{net}} = 0&lt;br&gt;&lt;br&gt;F&lt;br&gt;&lt;br&gt;net​&lt;br&gt;&lt;br&gt;=&lt;br&gt;&lt;br&gt;0 (gravity ↓ = normal force ↑) → book stays at rest.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;A satellite in orbit&lt;&#x2F;td&gt;&lt;td&gt;Near-zero friction → constant velocity (free fall path is inertial).&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;A hockey puck sliding on ice&lt;&#x2F;td&gt;&lt;td&gt;Low friction ≈ Fnet≈0F_{\text{net}} \approx 0&lt;br&gt;&lt;br&gt;F&lt;br&gt;&lt;br&gt;net​&lt;br&gt;&lt;br&gt;≈&lt;br&gt;&lt;br&gt;0 → slides far.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Sudden braking in a car&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;You lurch forward&lt;&#x2F;strong&gt; because your body resists change (inertia) until the seatbelt applies force.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;historical-modern-significance&quot;&gt;&lt;strong&gt;Historical &amp;amp; Modern Significance:&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Broke with Aristotelian physics&lt;&#x2F;strong&gt;: Established that motion requires no cause; &lt;em&gt;changes&lt;&#x2F;em&gt; in motion do.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Foundation for Newton&#x27;s Second Law&lt;&#x2F;strong&gt;: F⃗net=ma⃗\vec{F}_{\text{net}} = m\vec{a}&lt;&#x2F;p&gt;
+&lt;p&gt;F&lt;&#x2F;p&gt;
+&lt;p&gt;net​&lt;&#x2F;p&gt;
+&lt;p&gt;=&lt;&#x2F;p&gt;
+&lt;p&gt;m&lt;&#x2F;p&gt;
+&lt;p&gt;a&lt;&#x2F;p&gt;
+&lt;p&gt;generalizes the First Law (if a⃗=0\vec{a} = 0&lt;&#x2F;p&gt;
+&lt;p&gt;a&lt;&#x2F;p&gt;
+&lt;p&gt;=&lt;&#x2F;p&gt;
+&lt;p&gt;0, F⃗net=0\vec{F}_{\text{net}} = 0&lt;&#x2F;p&gt;
+&lt;p&gt;F&lt;&#x2F;p&gt;
+&lt;p&gt;net​&lt;&#x2F;p&gt;
+&lt;p&gt;=&lt;&#x2F;p&gt;
+&lt;p&gt;0).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Crucial for space missions&lt;&#x2F;strong&gt;: Spacecraft coast between planets with minimal fuel (no force needed to maintain velocity).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;In essence&lt;&#x2F;strong&gt;: Newton&#x27;s First Law reveals that &lt;strong&gt;force-free motion is natural&lt;&#x2F;strong&gt;. It redefined humanity&#x27;s understanding of dynamics and remains fundamental to physics today.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;New chat&lt;&#x2F;p&gt;
+&lt;p&gt;DeepThink (R1)&lt;&#x2F;p&gt;
+&lt;p&gt;Search&lt;&#x2F;p&gt;
+&lt;p&gt;AI-generated, for reference only&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>测试机器支持DeepSeek模型大小方法</title>
         <published>2023-10-20T00:00:00+00:00</published>
@@ -199,55 +506,6 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;如果需要更详细的部署教程或模型下载链接，可以参考相关来源。&lt;&#x2F;p&gt;
-&lt;p&gt;New chat&lt;&#x2F;p&gt;
-&lt;p&gt;DeepThink (R1)&lt;&#x2F;p&gt;
-&lt;p&gt;Search&lt;&#x2F;p&gt;
-&lt;p&gt;AI-generated, for reference only&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Git Checkout FETCH_HEAD Command Explanation</title>
-        <published>2023-10-20T00:00:00+00:00</published>
-        <updated>2023-10-20T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Spike.X
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://spynotes.netlify.app/git-checkout-fetch-head-command-explanation/"/>
-        <id>https://spynotes.netlify.app/git-checkout-fetch-head-command-explanation/</id>
-        
-        <content type="html" xml:base="https://spynotes.netlify.app/git-checkout-fetch-head-command-explanation/">&lt;p&gt;git checkout FETCH_HEAD&lt;&#x2F;p&gt;
-&lt;p&gt;git checkout FETCH_HEAD is a command used in Git to check out the commit that was most recently fetched from a remote repository. Here&#x27;s a breakdown of what it does:&lt;&#x2F;p&gt;
-&lt;p&gt;FETCH_HEAD: This is a special reference in Git that points to the commit that was fetched from the remote repository during the last git fetch operation. It is typically used to refer to the latest state of a branch or tag from the remote.&lt;&#x2F;p&gt;
-&lt;p&gt;git checkout FETCH_HEAD: This command checks out the commit referenced by FETCH_HEAD, effectively updating your working directory to match the state of the remote branch or tag that was fetched.&lt;&#x2F;p&gt;
-&lt;p&gt;Use Case&lt;&#x2F;p&gt;
-&lt;p&gt;This command is useful when you want to inspect or work with the latest changes from a remote repository without creating a local branch. It allows you to temporarily switch to the fetched state.&lt;&#x2F;p&gt;
-&lt;p&gt;Example&lt;&#x2F;p&gt;
-&lt;p&gt;Fetch the latest changes from the remote repository:&lt;&#x2F;p&gt;
-&lt;p&gt;bash&lt;&#x2F;p&gt;
-&lt;p&gt;Copy&lt;&#x2F;p&gt;
-&lt;p&gt;Download&lt;&#x2F;p&gt;
-&lt;p&gt;git fetch origin&lt;&#x2F;p&gt;
-&lt;p&gt;Check out the fetched commit:&lt;&#x2F;p&gt;
-&lt;p&gt;bash&lt;&#x2F;p&gt;
-&lt;p&gt;Copy&lt;&#x2F;p&gt;
-&lt;p&gt;Download&lt;&#x2F;p&gt;
-&lt;p&gt;git checkout FETCH_HEAD&lt;&#x2F;p&gt;
-&lt;p&gt;After running this, your working directory will reflect the state of the remote branch or tag that was fetched.&lt;&#x2F;p&gt;
-&lt;p&gt;Notes&lt;&#x2F;p&gt;
-&lt;p&gt;This is a &quot;detached HEAD&quot; state, meaning you are not on any branch. If you make changes and want to save them, you should create a new branch:&lt;&#x2F;p&gt;
-&lt;p&gt;bash&lt;&#x2F;p&gt;
-&lt;p&gt;Copy&lt;&#x2F;p&gt;
-&lt;p&gt;Download&lt;&#x2F;p&gt;
-&lt;p&gt;git checkout -b new-branch-name&lt;&#x2F;p&gt;
-&lt;p&gt;FETCH_HEAD is updated every time you run git fetch, so it always points to the most recently fetched commit.&lt;&#x2F;p&gt;
-&lt;p&gt;Let me know if you need further clarification!&lt;&#x2F;p&gt;
 &lt;p&gt;New chat&lt;&#x2F;p&gt;
 &lt;p&gt;DeepThink (R1)&lt;&#x2F;p&gt;
 &lt;p&gt;Search&lt;&#x2F;p&gt;

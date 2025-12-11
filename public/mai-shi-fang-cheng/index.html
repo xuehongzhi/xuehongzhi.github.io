@@ -1,0 +1,688 @@
+<!doctype html>
+<html class="not-ready lg:text-base" lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Title -->
+  <title>
+    麦氏方程  - Notes
+  </title>
+
+  <!-- Meta -->
+  <meta name="theme-color" />
+
+  
+  <!-- Author -->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  <meta name="description" content="Lorem Ipsum Dolor Si Amet" />
+  <meta name="author" content="Spike.X" />
+  <!-- The Open Graph protocol -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="麦氏方程 " />
+  <meta property="og:site_name" content="Notes" />
+  <meta property="og:description" content="Lorem Ipsum Dolor Si Amet" />
+  <meta property="og:url" content="https:&#x2F;&#x2F;spynotes.netlify.app&#x2F;mai-shi-fang-cheng&#x2F;" />
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <meta property="og:image" content="https://spynotes.netlify.app/icons/github.svg" />
+  
+  <!---->
+  
+
+  <!-- CSS & JS -->
+  <link rel="preload stylesheet" as="style" href="https://spynotes.netlify.app/main.css" />
+  <style>
+    :root {
+      --bg: #f4f4f5;
+      --bg-dark: #18181b;
+      --header: #e4e4e7;
+      --header-dark: #27272a;
+    }
+  </style>
+
+  
+
+  <!-- Dark Icon -->
+  <link rel="preload" as="image" href="https://spynotes.netlify.app/icons/theme.svg" />
+
+  <!-- Math -->
+  
+  <!---->
+
+  <!-- Mermaid -->
+  
+  <!---->
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://spynotes.netlify.app/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://spynotes.netlify.app/apple-touch-icon.png" />
+
+  <!-- Feeds -->
+  
+  <!---->
+  
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="Atom"
+    href="https://spynotes.netlify.app/atom.xml"
+  />
+   
+  <!---->
+  
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https:&#x2F;&#x2F;spynotes.netlify.app&#x2F;mai-shi-fang-cheng&#x2F;" />
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header
+  class="header fixed top-0 z-40 mx-auto min-h-[3.5rem] w-full"
+>
+  <div class="mx-auto w-full max-w-4xl p-3 lg:flex lg:justify-between">
+    <div class="flex justify-between">
+      <div class="flex items-center">
+        <a class="text-2xl font-semibold" href="https://spynotes.netlify.app">Notes</a>
+        <div
+          class="btn-dark ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0] [background:url(./icons/theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+          role="button"
+          aria-label="Dark"
+        ></div>
+      </div>
+      
+      <div
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        role="button"
+        aria-label="Menu"
+      ></div>
+      
+    </div>
+    <script>
+      // base
+      const htmlClass = document.documentElement.classList;
+      setTimeout(() => {
+        htmlClass.remove("not-ready");
+      }, 10);
+
+      // mobile menu
+      const btnMenu = document.querySelector(".btn-menu");
+      btnMenu?.addEventListener("click", () => {
+        htmlClass.toggle("open");
+      });
+
+      // dark theme
+      const setDark = (isDark) => {
+        if (isDark) {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "dark" }));
+          htmlClass.add("dark");
+        } else {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "light" }));
+          htmlClass.remove("dark");
+        }
+        localStorage.setItem("dark", isDark);
+      };
+
+      // init
+      const darkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+      if (htmlClass.contains("dark")) {
+        setDark(true);
+      } else {
+        const darkVal = localStorage.getItem("dark");
+        setDark(darkVal ? darkVal === "true" : darkScheme.matches);
+      }
+
+      // listen system
+      darkScheme.addEventListener("change", (event) => {
+        setDark(event.matches);
+      });
+
+      // manual switch
+      const btnDark = document.querySelector(".btn-dark");
+      btnDark.addEventListener("click", () => {
+        setDark(localStorage.getItem("dark") !== "true");
+      });
+    </script>
+    
+    <nav class="flex w-full items-center lg:w-auto">
+      <ul
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"
+      >
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://spynotes.netlify.app/projects"
+            >Projects</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://spynotes.netlify.app/archive"
+            >Archive</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://spynotes.netlify.app/tags"
+            >Tags</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://spynotes.netlify.app/about"
+            >About</a
+          >
+        </li>
+        
+      </ul>
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl break-words px-4 pb-16 pt-32 dark:prose-invert prose-pre:rounded-lg prose-img:rounded-lg"
+    >
+      
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">麦氏方程 </h1>
+    <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-09-22</time>
+  <span class="mx-1">&middot;</span>
+  <span>13min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Spike.X</span>
+  
+</div>
+
+  </header>
+
+  
+
+  <!-- TOC -->
+  <!---->
+<div class="block-bg mb-12 flex rounded-lg p-2 text-lg">
+  <details>
+    <summary class="cursor-pointer py-1 pl-4">
+      <span>Table of Contents</span>
+    </summary>
+    <div class="px-2">
+      <ul>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://spynotes.netlify.app/mai-shi-fang-cheng/#mai-ke-si-wei-fang-cheng-zu-wei-fen-xing-shi"
+            >麦克斯韦方程组（微分形式）</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://spynotes.netlify.app/mai-shi-fang-cheng/#guan-jian-yi-yi-he-gong-xian"
+            >关键意义和贡献</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://spynotes.netlify.app/mai-shi-fang-cheng/#zong-jie"
+            >总结</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://spynotes.netlify.app/mai-shi-fang-cheng/#core-statement"
+            >Core Statement:</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://spynotes.netlify.app/mai-shi-fang-cheng/#key-concepts"
+            >Key Concepts:</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://spynotes.netlify.app/mai-shi-fang-cheng/#why-this-is-non-intuitive"
+            >Why This Is Non-Intuitive:</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://spynotes.netlify.app/mai-shi-fang-cheng/#mathematical-form"
+            >Mathematical Form:</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://spynotes.netlify.app/mai-shi-fang-cheng/#key-implications"
+            >Key Implications:</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://spynotes.netlify.app/mai-shi-fang-cheng/#examples"
+            >Examples:</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://spynotes.netlify.app/mai-shi-fang-cheng/#historical-modern-significance"
+            >Historical &amp; Modern Significance:</a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+  </details>
+</div>
+
+<!---->
+
+  <!-- Content -->
+  <section><p>嗯，用户提到了"麦氏方程"，我需要确认这是指电磁学中的麦克斯韦方程组。用户可能是在学习物理或工程相关课程，或者对电磁理论感兴趣。考虑到这个术语的专业性，用户可能是学生、教师或科技爱好者。</p>
+<p>用户没有提供更多背景，但突然抛出这个术语，可能有几种需求：一是想了解基本概念，二是需要公式的具体形式，三是想理解其物理意义，四是探讨实际应用。最稳妥的方式是从基础开始系统介绍，同时覆盖数学表达和物理内涵。</p>
+<p>麦克斯韦方程组有积分和微分两种形式，用户可能更需要微分形式，因为更通用且便于计算。需要强调四个方程分别对应不同实验定律（高斯、法拉第等），并指出新增的位移电流是关键创新。</p>
+<p>用户可能对"方程如何预言电磁波"这一点感兴趣，这点必须展开说明。另外要提现代应用，比如通信技术，让理论联系实际。最后用一句话总结其地位——"物理学美学巅峰"这类表述能引发兴趣。</p>
+<p>要注意避免过于数学化，比如旋度散度的严格定义可以简化为"电场磁场的空间变化率"。如果用户后续追问数学细节，再深入讲解。现在首要是建立物理图像。</p>
+<p>对了，补充点历史背景会更有趣：麦克斯韦如何统一电与磁，赫兹后来实验证实电磁波，这样故事性更强。不过核心还是说清方程本身，历史作为点缀即可。</p>
+<p>麦克斯韦方程组（<strong>Maxwell's Equations</strong>）是电磁学的<strong>核心基石</strong>，由英国物理学家詹姆斯·克拉克·麦克斯韦在19世纪中叶提出。它完美统一了电学与磁学，揭示了电场和磁场之间的内在联系及其变化规律，并预言了电磁波的存在（后来被赫兹实验证实），为现代无线通信、光学和整个经典电磁理论奠定了基础。</p>
+<p>麦克斯韦方程组通常以<strong>积分形式</strong>和<strong>微分形式</strong>两种等价形式表述。下面是最常见的<strong>微分形式</strong>（使用矢量微积分）：</p>
+<hr />
+<h3 id="mai-ke-si-wei-fang-cheng-zu-wei-fen-xing-shi"><strong>麦克斯韦方程组（微分形式）</strong></h3>
+<ol>
+<li>
+<p><strong>高斯定律（电场） - Gauss's Law for Electricity:</strong><br />
+<code>$\nabla \cdot \vec{E} = \frac{\rho}{\epsilon_0}$</code></p>
+<ul>
+<li>
+<p><strong>物理意义：</strong> 电荷是电场的源。电场线始于正电荷，终止于负电荷。</p>
+</li>
+<li>
+<p><code>$\nabla \cdot \vec{E}$</code>： 电场 <code>$\vec{E}$</code> 的散度（表示电场在空间某点的“发散程度”）。</p>
+</li>
+<li>
+<p><code>$\rho$</code>： 自由电荷体密度。</p>
+</li>
+<li>
+<p><code>$\epsilon_0$</code>： 真空介电常数。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>高斯定律（磁场） - Gauss's Law for Magnetism:</strong><br />
+<code>$\nabla \cdot \vec{B} = 0$</code></p>
+<ul>
+<li>
+<p><strong>物理意义：</strong> 磁单极子不存在。磁场没有源或汇，磁感线是闭合的（无头无尾）。</p>
+</li>
+<li>
+<p><code>$\nabla \cdot \vec{B}$</code>： 磁场 <code>$\vec{B}$</code> 的散度。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>法拉第电磁感应定律 - Faraday's Law of Induction:</strong><br />
+<code>$\nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}$</code></p>
+<ul>
+<li>
+<p><strong>物理意义：</strong> 变化的磁场会产生电场（涡旋电场）。</p>
+</li>
+<li>
+<p><code>$\nabla \times \vec{E}$</code>： 电场 <code>$\vec{E}$</code> 的旋度（表示电场在空间某点的“旋转程度”）。</p>
+</li>
+<li>
+<p><code>$-\frac{\partial \vec{B}}{\partial t}$</code>： 磁场 <code>$\vec{B}$</code> 随时间变化率的负值。负号表示感应电场的方向会阻碍磁场的变化（楞次定律）。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>安培-麦克斯韦定律 - Ampère-Maxwell Law:</strong><br />
+<code>$\nabla \times \vec{B} = \mu_0 \vec{J} + \mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}$</code></p>
+<ul>
+<li>
+<p><strong>物理意义：</strong> 电流和变化的电场都能产生磁场。</p>
+</li>
+<li>
+<p><code>$\nabla \times \vec{B}$</code>： 磁场 <code>$\vec{B}$</code> 的旋度。</p>
+</li>
+<li>
+<p><code>$\mu_0$</code>： 真空磁导率。</p>
+</li>
+<li>
+<p><code>$\vec{J}$</code>： 自由电流密度（由电荷运动产生）。</p>
+</li>
+<li>
+<p><code>$\mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}$</code>： <strong>位移电流密度</strong>（麦克斯韦的关键创新！）。这是麦克斯韦添加的一项，表示变化的电场也能像电流一样产生磁场。正是这一项使得方程组完整并预言了电磁波。</p>
+</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3 id="guan-jian-yi-yi-he-gong-xian"><strong>关键意义和贡献</strong></h3>
+<ol>
+<li>
+<p><strong>统一电磁理论：</strong> 将静电学（库仑定律）、静磁学（安培定律）、电磁感应（法拉第定律）统一在一个自洽的理论框架内。</p>
+</li>
+<li>
+<p><strong>预言电磁波：</strong> 从方程组可以直接推导出电磁波方程。方程组表明变化的电场产生变化的磁场，变化的磁场又产生变化的电场，这种相互激发可以在空间中脱离电荷和电流源独立传播，形成<strong>电磁波</strong>。麦克斯韦还计算出电磁波在真空中的传播速度 <code>$c = \frac{1}{\sqrt{\mu_0 \epsilon_0}}$</code>，与当时已知的光速非常接近，从而大胆预言<strong>光就是一种电磁波</strong>。</p>
+</li>
+<li>
+<p><strong>奠定现代技术基础：</strong> 无线电、电视、雷达、手机、卫星通信、微波炉、光纤通信、X光、所有现代电子技术，其理论基础都源于麦克斯韦方程组。</p>
+</li>
+<li>
+<p><strong>引入“位移电流”：</strong> 这是麦克斯韦最天才的贡献。他发现仅靠原有的安培定律（<code>$\nabla \times \vec{B} = \mu_0 \vec{J}$</code>）在电荷密度变化（如电容器充放电）的情况下会违反电荷守恒定律。添加位移电流项 <code>$\mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}$</code> 后，不仅解决了矛盾，更重要的是揭示了变化的电场产生磁场的本质，使方程组具备完美的对称性（除了磁单极子缺失），并预言电磁波。</p>
+</li>
+<li>
+<p><strong>相对论的先驱：</strong> 麦克斯韦方程组的洛伦兹协变性（即在洛伦兹变换下形式不变）是爱因斯坦创立狭义相对论的重要启示之一。</p>
+</li>
+</ol>
+<hr />
+<h3 id="zong-jie"><strong>总结</strong></h3>
+<p>麦克斯韦方程组是人类科学史上最伟大、最深刻、最美丽的成就之一。它用四个简洁而对称的方程，精妙地刻画了电场和磁场如何相互激发、如何与电荷电流相互作用、如何在空间中传播。它不仅完美解释了当时已知的所有电磁现象，还做出了划时代的预言（电磁波即光），彻底改变了人类对世界的理解，并催生了几乎所有的现代电子和通信技术。</p>
+<p><strong>可以说，没有麦克斯韦方程组，就没有我们的现代信息社会。</strong></p>
+<p>newton first law</p>
+<p>Thought for 16 seconds</p>
+<p>Okay, the user just asked about Newton's First Law after previously discussing Maxwell's Equations. Interesting shift from electromagnetism to classical mechanics.</p>
+<p>Hmm, judging by the concise query "newton first law", they likely want a straightforward explanation similar to the detailed response I gave for Maxwell's Equations. The user seems comfortable with scientific concepts - maybe a physics student or enthusiast.</p>
+<p>I recall their last question was technical but not overly advanced, so I'll keep this accessible while including the essential mathematical context. Should emphasize how this law differs from everyday intuition since that's where people get tripped up.</p>
+<p>Noting they didn't specify depth level, I'll structure it parallel to the Maxwell response: core statement, key implications, historical context, and modern relevance. The mention of Aristotle-Galileo contrast is crucial - shows why this wasn't obvious.</p>
+<p>Must clarify inertial frames upfront since that's the most common point of confusion. The shopping cart example came to mind as universally relatable. Also considering adding a "why it matters" section like with Maxwell to show real-world significance beyond textbook definitions.</p>
+<p>Wait - should check if they want applications. But given the query's brevity, better to keep it foundational. Can expand if they follow up. The vector notation is worth including since they handled Maxwell's differential forms.</p>
+<p>...Time to balance simplicity with depth. No jargon without explanation. Highlighting F_net=0 as the key condition. And absolutely must stress that this defines force conceptually - that's the law's deepest purpose.</p>
+<p><strong>Newton's First Law of Motion</strong> (also called the <strong>Law of Inertia</strong>) is the foundation of classical mechanics. Here's a clear breakdown of its meaning, implications, and significance:</p>
+<hr />
+<h3 id="core-statement"><strong>Core Statement:</strong></h3>
+<blockquote>
+<p>"An object at rest stays at rest, and an object in motion stays in motion <strong>with the same speed and in the same direction</strong> unless acted upon by an <strong>unbalanced external force</strong>."</p>
+</blockquote>
+<h3 id="key-concepts"><strong>Key Concepts:</strong></h3>
+<ol>
+<li>
+<p><strong>Inertia</strong>:</p>
+<ul>
+<li>
+<p>Inertia is an object's inherent resistance to changes in its state of motion.</p>
+</li>
+<li>
+<p><strong>Mass</strong> is the quantitative measure of inertia (greater mass = greater inertia).</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Equilibrium Condition</strong>:</p>
+<ul>
+<li>
+<p>If the <strong>net external force</strong> (F⃗net\vec{F}_{\text{net}}</p>
+<p>F</p>
+<p>net​</p>
+<p>) on an object is <strong>zero</strong> (F⃗net=0\vec{F}_{\text{net}} = 0</p>
+<p>F</p>
+<p>net​</p>
+<p>=</p>
+<p>0):</p>
+<ul>
+<li>
+<p>An object at rest remains at rest.</p>
+</li>
+<li>
+<p>A moving object continues moving at <strong>constant velocity</strong> (unchanging speed + direction).</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Force as the Cause of Change</strong>:</p>
+<ul>
+<li>
+<p>Velocity changes (acceleration) <strong>only occur</strong> when a net force acts on an object.</p>
+</li>
+<li>
+<p>Force is not needed to <em>maintain</em> motion—only to <em>change</em> it.</p>
+</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3 id="why-this-is-non-intuitive"><strong>Why This Is Non-Intuitive:</strong></h3>
+<ul>
+<li>
+<p><strong>Everyday experience misleads us</strong>:</p>
+<ul>
+<li>
+<p>A rolling ball stops because of friction (an unbalanced force!).</p>
+</li>
+<li>
+<p>In space (where forces are minimal), objects move indefinitely (e.g., satellites).</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Aristotle vs. Galileo</strong>:</p>
+<ul>
+<li>
+<p>Aristotle wrongly believed "force is needed to sustain motion."</p>
+</li>
+<li>
+<p>Galileo (through thought experiments) conceived inertia, later formalized by Newton.</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="mathematical-form"><strong>Mathematical Form:</strong></h3>
+<ul>
+<li>
+<p>If F⃗net=0\vec{F}_{\text{net}} = 0</p>
+<p>F</p>
+<p>net​</p>
+<p>=</p>
+<p>0, then:</p>
+<p>dv⃗dt=0</p>
+<p>(acceleration is zero)\frac{d\vec{v}}{dt} = 0 \quad \text{(acceleration is zero)}</p>
+<p>dt</p>
+<p>d</p>
+<p>v</p>
+<p>​</p>
+<p>=</p>
+<p>0</p>
+<p>(acceleration is zero)v⃗=constant</p>
+<p>(including v⃗=0)\vec{v} = \text{constant} \quad \text{(including } \vec{v} = 0\text{)}</p>
+<p>v</p>
+<p>=</p>
+<p>constant</p>
+<p>(including </p>
+<p>v</p>
+<p>=</p>
+<ol start="0">
+<li></li>
+</ol>
+</li>
+</ul>
+<hr />
+<h3 id="key-implications"><strong>Key Implications:</strong></h3>
+<ol>
+<li>
+<p><strong>Defines an Inertial Reference Frame</strong>:</p>
+<ul>
+<li>
+<p>The law itself <strong>only holds in inertial frames</strong> (non-accelerating coordinate systems).</p>
+</li>
+<li>
+<p>In accelerating frames (e.g., a turning car), objects appear to accelerate "spontaneously" (fictitious forces).</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Distinguishes Forces from Motion</strong>:</p>
+<ul>
+<li>Velocity is a <em>consequence</em> of forces in the past; force determines <em>future</em> changes.</li>
+</ul>
+</li>
+<li>
+<p><strong>Introduces Vector Nature of Motion</strong>:</p>
+<ul>
+<li>"Constant velocity" means constant <strong>speed and direction</strong>. A turning object (even at constant speed) requires force.</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3 id="examples"><strong>Examples:</strong></h3>
+<table><thead><tr><th><strong>Scenario</strong></th><th><strong>Why the First Law Applies</strong></th></tr></thead><tbody>
+<tr><td>A book on a table</td><td>Fnet=0F_{\text{net}} = 0<br><br>F<br><br>net​<br><br>=<br><br>0 (gravity ↓ = normal force ↑) → book stays at rest.</td></tr>
+<tr><td>A satellite in orbit</td><td>Near-zero friction → constant velocity (free fall path is inertial).</td></tr>
+<tr><td>A hockey puck sliding on ice</td><td>Low friction ≈ Fnet≈0F_{\text{net}} \approx 0<br><br>F<br><br>net​<br><br>≈<br><br>0 → slides far.</td></tr>
+<tr><td><strong>Sudden braking in a car</strong></td><td><strong>You lurch forward</strong> because your body resists change (inertia) until the seatbelt applies force.</td></tr>
+</tbody></table>
+<hr />
+<h3 id="historical-modern-significance"><strong>Historical &amp; Modern Significance:</strong></h3>
+<ul>
+<li>
+<p><strong>Broke with Aristotelian physics</strong>: Established that motion requires no cause; <em>changes</em> in motion do.</p>
+</li>
+<li>
+<p><strong>Foundation for Newton's Second Law</strong>: F⃗net=ma⃗\vec{F}_{\text{net}} = m\vec{a}</p>
+<p>F</p>
+<p>net​</p>
+<p>=</p>
+<p>m</p>
+<p>a</p>
+<p>generalizes the First Law (if a⃗=0\vec{a} = 0</p>
+<p>a</p>
+<p>=</p>
+<p>0, F⃗net=0\vec{F}_{\text{net}} = 0</p>
+<p>F</p>
+<p>net​</p>
+<p>=</p>
+<p>0).</p>
+</li>
+<li>
+<p><strong>Crucial for space missions</strong>: Spacecraft coast between planets with minimal fuel (no force needed to maintain velocity).</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>In essence</strong>: Newton's First Law reveals that <strong>force-free motion is natural</strong>. It redefined humanity's understanding of dynamics and remains fundamental to physics today.</p>
+</blockquote>
+<p>New chat</p>
+<p>DeepThink (R1)</p>
+<p>Search</p>
+<p>AI-generated, for reference only</p>
+</section>
+
+  <hr />
+
+  <!-- Post Taxonomies -->
+  
+<footer class="mt-12 flex flex-col">
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <div class="mb-2 flex flex-wrap">
+    <span class="block-bg mb-1.5 mr-1.5 rounded-lg px-5 py-1.5">Tags </span>
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://spynotes.netlify.app/tags/markdown/"
+      >markdown</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://spynotes.netlify.app/tags/deepseek/"
+      >DeepSeek</a
+    >
+    
+  </div>
+  
+</footer>
+
+<!---->
+
+  <!-- Post Nav -->
+  
+<nav class="block-bg mt-12 flex flex-wrap rounded-lg text-lg">
+  
+  <a
+    class="block-hover-mask flex min-w-[50%] grow items-center rounded-l-md p-6 pr-3 font-semibold no-underline"
+    href="https:&#x2F;&#x2F;spynotes.netlify.app&#x2F;ce-shi-ji-qi-zhi-chi-deepseekmo-xing-da-xiao-fang-fa&#x2F;"
+    ><span class="mr-1.5">←</span><span>测试机器支持DeepSeek模型大小方法</span></a
+  >
+  <!---->
+  
+</nav>
+
+<!---->
+
+  <!-- Comment -->
+  
+</article>
+
+    </main>
+
+    <footer class="mx-auto flex max-w-3xl flex-wrap items-center px-8 py-4 text-sm opacity-60">
+  <div class="mr-auto basis-full lg:basis-1/2">
+    
+    &copy; 
+    2020 - 2025
+    
+    <a class="link" href="https://spynotes.netlify.app"
+      >Spike.X</a
+    >
+     |<!---->
+    <!---->
+    <a class="link" href="https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-sa&#x2F;4.0&#x2F;deed" rel="noopener" target="_blank">
+      CC BY-SA 4.0
+    </a>
+    <!---->
+    
+  </div>
+  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
+    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank"
+      >Powered by Zola</a
+    >
+    <a class="link" href="https://github.com/st1020/kita" rel="noopener" target="_blank">✎ Kita</a>
+  </div>
+</footer>
+
+  </body>
+</html>
