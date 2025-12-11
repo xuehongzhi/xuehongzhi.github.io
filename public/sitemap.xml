@@ -10,6 +10,22 @@
         <loc>https://spynotes.netlify.app/archive/</loc>
     </url>
     <url>
+        <loc>https://spynotes.netlify.app/ce-shi-ji-qi-zhi-chi-deepseekmo-xing-da-xiao-fang-fa/</loc>
+        <lastmod>2023-10-20</lastmod>
+    </url>
+    <url>
+        <loc>https://spynotes.netlify.app/git-checkout-fetch-head-command-explanation/</loc>
+        <lastmod>2023-10-20</lastmod>
+    </url>
+    <url>
+        <loc>https://spynotes.netlify.app/gruban-zhuang-qiang-zhi-wen-jian-idzuo-yong-jie-xi/</loc>
+        <lastmod>2023-10-20</lastmod>
+    </url>
+    <url>
+        <loc>https://spynotes.netlify.app/jiao-liu-dian-xiang-dui-yu-zhi-liu-dian-de-hao-chu/</loc>
+        <lastmod>2023-10-20</lastmod>
+    </url>
+    <url>
         <loc>https://spynotes.netlify.app/markdown-syntax/</loc>
         <lastmod>2022-10-20</lastmod>
     </url>
@@ -22,22 +38,6 @@
     </url>
     <url>
         <loc>https://spynotes.netlify.app/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://spynotes.netlify.app/placeholder-1/</loc>
-        <lastmod>2023-10-20</lastmod>
-    </url>
-    <url>
-        <loc>https://spynotes.netlify.app/placeholder-2/</loc>
-        <lastmod>2023-10-20</lastmod>
-    </url>
-    <url>
-        <loc>https://spynotes.netlify.app/placeholder-3/</loc>
-        <lastmod>2023-10-20</lastmod>
-    </url>
-    <url>
-        <loc>https://spynotes.netlify.app/placeholder-4/</loc>
-        <lastmod>2023-10-20</lastmod>
     </url>
     <url>
         <loc>https://spynotes.netlify.app/placeholder-5/</loc>
@@ -58,6 +58,12 @@
     </url>
     <url>
         <loc>https://spynotes.netlify.app/tags/css/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://spynotes.netlify.app/tags/deepseek/</loc>
+    </url>
+    <url>
+        <loc>https://spynotes.netlify.app/tags/deepseek/page/1/</loc>
     </url>
     <url>
         <loc>https://spynotes.netlify.app/tags/html/</loc>
